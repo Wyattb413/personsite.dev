@@ -14,7 +14,9 @@ body {
 .text-muted {         /*Color for text on whole document, not including resume sub-header*/
   color: #a94442;
 }
-
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
+    background-color: #22333B;
+}
 /*Resume Section*/
     #resume-header {
         text-align: center;
