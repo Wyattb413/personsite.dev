@@ -1,111 +1,200 @@
 /*/==============================================================={HTML & Body}=======================================================================\*/
-html, body {
-  margin: 0; 
-  height: 100%; 
-  overflow: hidden
-}
+  /*html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
+  }*/
 /*/===================================================================================================================================================\*/
 
 /*/==============================================================={Twinkling Background}==============================================================\*/
-@keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-webkit-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-moz-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
-@-ms-keyframes move-twink-back {
-    from {background-position:0 0;}
-    to {background-position:-10000px 5000px;}
-}
+  @keyframes move-twink-back {
+      from {background-position:0 0;}
+      to {background-position:-10000px 5000px;}
+  }
+  @-webkit-keyframes move-twink-back {
+      from {background-position:0 0;}
+      to {background-position:-10000px 5000px;}
+  }
+  @-moz-keyframes move-twink-back {
+      from {background-position:0 0;}
+      to {background-position:-10000px 5000px;}
+  }
+  @-ms-keyframes move-twink-back {
+      from {background-position:0 0;}
+      to {background-position:-10000px 5000px;}
+  }
 
-.stars, .twinkling {
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  width:100%;
-  height:100%;
-  display:block;
-}
+  .stars, .twinkling {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    display:block;
+  }
 
-.stars {
-  background:#000 url(/interactiveResume/img/starfield.png) repeat top center;
-  z-index:0;
-}
+  .stars {
+    background:#000 url(/interactiveResume/img/starfield.png) repeat top center;
+    z-index:0;
+  }
 
-.twinkling{
-  background:transparent url(/interactiveResume/img/twinkling.png) repeat top center;
-  z-index:1;
+  .twinkling{
+    background:transparent url(/interactiveResume/img/twinkling.png) repeat top center;
+    z-index:1;
 
-  -moz-animation:move-twink-back 200s linear infinite;
-  -ms-animation:move-twink-back 200s linear infinite;
-  -o-animation:move-twink-back 200s linear infinite;
-  -webkit-animation:move-twink-back 200s linear infinite;
-  animation:move-twink-back 200s linear infinite;
-}
+    -moz-animation:move-twink-back 900s linear infinite;
+    -ms-animation:move-twink-back 900s linear infinite;
+    -o-animation:move-twink-back 900s linear infinite;
+    -webkit-animation:move-twink-back 900s linear infinite;
+    animation:move-twink-back 900s linear infinite;
+  }
 /*/==================================================================================================================================================\*/
 
 /*/==============================================================={Main Wrapper}=====================================================================\*/
-.wrapper{
-  position: relative;
-  z-index: 3;
-}
+  .wrapper{
+    position: relative;
+    z-index: 3;
+  }
 /*/==================================================================================================================================================\*/
 
 /*/==============================================================={Content Container}================================================================\*/
-.row {
-  
-}
+  .row {
+  }
 /*/==================================================================================================================================================\*/
 
-/*/==============================================================={Large Screens}====================================================================\*/
-/*@media (min-width: 1200px) {*/
-  /*/==============================================================={Outer Circle}===================================================================\*/
+/*/==============================================================={Circle Container}=================================================================\*/
+  .circleContainer {
+    position: relative;
+    height: 1000px;
+    width: 1000px;
+  }
+/*/==================================================================================================================================================\*/
+
+/*/==============================================================={Outer Circle}=====================================================================\*/
   .outerCircle {
     position: absolute;
     height: 60%;
     width: 60%;
-    border: .5em solid green;
+    border: .5em solid #B5B5B5;
     border-radius: 50%;
     margin-top: 8%;
     margin-left: -1%;
-    z-index: 5;
-    /*transform: translateX(-5%);*/
   }
-  /*/================================================================================================================================================\*/
+/*/==================================================================================================================================================\*/
 
-  /*/==============================================================={Inner Circle}===================================================================\*/
+/*/==============================================================={Inner Circle}=====================================================================\*/
   .innerCircle {
     position: absolute;
     height: 58%;
     width: 58%;
     background-color: grey;
-    border: 4em solid blue;
+    background-image: url('/interactiveResume/img/mountainsky.jpeg');
+    background-size: cover;
+    border: 4em solid #000;
     border-radius: 50%;
     margin-top: 6.5em;
-    z-index: 6;
-    /*transform: translate(-3.9% ,-116%);*/
+    margin-top: 9%;
   }
-/*}*/
-/*/===================================================================================================================================================\*/
-.circleContainer {
-  position: relative;
-  height: 1000px;
-  width: 1000px;
-}
+/*/==================================================================================================================================================\*/
 
+/*/==============================================================={First Heading}====================================================================\*/
+  #firstHeading {
+    position: absolute;
+    margin-top: 10.4%;
+    margin-left: 25%;
+    display: inline-block;
+    color: white;
+    font-family: 'Bad Script', cursive;
+  }
+/*/==================================================================================================================================================\*/
 
+/*/==============================================================={Second Heading}===================================================================\*/
+  #secondHeading {
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 47%;
+    display: inline-block;
+    color: white;
+    transform: rotate(90deg);
+    font-family: 'Arapey', serif;
+  }
+/*/==================================================================================================================================================\*/
 
+/*/==============================================================={Third Heading}===================================================================\*/
+  #thirdHeading {
+    position: absolute;
+      margin-top: 62%;
+      margin-left: 20%;
+      display: inline-block;
+      color: white;
+      font-family: 'Arapey', serif;
+    }
+/*/==================================================================================================================================================\*/
 
+/*/==============================================================={Fourth Heading}===================================================================\*/
+  #fourthHeading {
+    position: absolute;
+    margin-top: 35.5%;
+    margin-left: -6%;
+    display: inline-block;
+    color: white;
+    transform: rotate(270deg);
+    font-family: 'Arapey', serif;
+  }
+/*/==================================================================================================================================================\*/
 
+/*/==============================================================={Display None}=====================================================================\*/
+  .displayNone {
+    display: none;
+  }
+/*/==================================================================================================================================================\*/
 
+/*/==============================================================={Display Table}=====================================================================\*/
+  .displayTable {
+    display: table;
+  }
+/*/==================================================================================================================================================\*/
+
+/*/==============================================================={Welcome Text}=====================================================================\*/
+  #welcomeTextDiv {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    /*display: table;*/
+  }
+  #welcomeText {
+    color: #000;
+    font-size: 2em;
+    height: 269px;
+    width: 374px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Tillana', cursive;
+    /*font-family: 'Bungee Hairline', cursive;*/
+  }
+/*/==================================================================================================================================================\*/
+
+/*/==============================================================={My Projects Text}=================================================================\*/
+  #myProjectTextDiv {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    /*display: table;*/
+  }
+  #myProjectText {
+    color: #000;
+    font-size: 2em;
+    height: 269px;
+    width: 374px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Tillana', cursive;
+  }
+/*/==================================================================================================================================================\*/
 
 
 
