@@ -1,13 +1,13 @@
 /*/==============================================================={HTML & Body}=======================================================================\*/
-  /*html, body {
+  html, body {
     margin: 0; 
     height: 100%; 
     overflow: hidden
-  }*/
+  }
 /*/===================================================================================================================================================\*/
 
 /*/==============================================================={Twinkling Background}==============================================================\*/
-  @keyframes move-twink-back {
+ /* @keyframes move-twink-back {
       from {background-position:0 0;}
       to {background-position:-10000px 5000px;}
   }
@@ -22,7 +22,7 @@
   @-ms-keyframes move-twink-back {
       from {background-position:0 0;}
       to {background-position:-10000px 5000px;}
-  }
+  }*/
 
   .stars, .twinkling {
     position:absolute;
@@ -40,7 +40,7 @@
     z-index:0;
   }
 
-  .twinkling{
+  /*.twinkling{
     background:transparent url(/interactiveResume/img/twinkling.png) repeat top center;
     z-index:1;
 
@@ -49,7 +49,7 @@
     -o-animation:move-twink-back 900s linear infinite;
     -webkit-animation:move-twink-back 900s linear infinite;
     animation:move-twink-back 900s linear infinite;
-  }
+  }*/
 /*/==================================================================================================================================================\*/
 
 /*/==============================================================={Main Wrapper}=====================================================================\*/
