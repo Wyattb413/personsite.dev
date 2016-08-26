@@ -11,6 +11,10 @@ $('#fourthHeading').arctext({radius: 300})
 //==================================================================================================================================================\
 
 //==============================================================={Click Functions}==================================================================\
+$('#myProjectText').hide();
+$('#careerStoryText').hide();
+$('#contactMeText').hide();
+
 
 $('#welcomeClick').click(function(){
 	$('#myProjectText').fadeOut();
@@ -46,8 +50,6 @@ $('#contactMeClick').click(function(){
 	$('#contactMeText').fadeIn();	
 	},500);
 })
-
-
 
 
 
