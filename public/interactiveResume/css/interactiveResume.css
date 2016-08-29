@@ -7,22 +7,6 @@
 /*/===================================================================================================================================================\*/
 
 /*/==============================================================={Twinkling Background}==============================================================\*/
- /* @keyframes move-twink-back {
-      from {background-position:0 0;}
-      to {background-position:-10000px 5000px;}
-  }
-  @-webkit-keyframes move-twink-back {
-      from {background-position:0 0;}
-      to {background-position:-10000px 5000px;}
-  }
-  @-moz-keyframes move-twink-back {
-      from {background-position:0 0;}
-      to {background-position:-10000px 5000px;}
-  }
-  @-ms-keyframes move-twink-back {
-      from {background-position:0 0;}
-      to {background-position:-10000px 5000px;}
-  }*/
 
   .stars, .twinkling {
     position:absolute;
@@ -36,24 +20,11 @@
   }
 
     .stars {
-      /*background:#000 url(/interactiveResume/img/starfield.png);*/
-      /*background: url(/interactiveResume/img/oceanWater.jpeg);*/
       background-image: url('/interactiveResume/img/whiteWaters.jpeg');
       background-size: cover;
       z-index:0;
     }
 
-  /*.twinkling{
-    background:transparent url(/interactiveResume/img/twinkling.png) repeat top center;
-    z-index:1;
-    transform: translateZ(0);
-
-    -moz-animation:move-twink-back 900s linear infinite;
-    -ms-animation:move-twink-back 900s linear infinite;
-    -o-animation:move-twink-back 900s linear infinite;
-    -webkit-animation:move-twink-back 900s linear infinite;
-    animation:move-twink-back 900s linear infinite;
-  }*/
 /*/==================================================================================================================================================\*/
 
 /*/==============================================================={Main Wrapper}=====================================================================\*/
