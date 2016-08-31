@@ -233,3 +233,36 @@
   margin-left: 1.5%;
   margin-top: 31.5%;
 }
+
+#pageIndicator1 {
+  height: 6.5px;
+  width: 20px;
+  position: absolute;
+  background-color: #566246;
+  margin-top: 48.5%;
+  margin-left: 23.5%;
+}
+#pageIndicator2 {
+  height: 6.5px;
+  width: 20px;
+  position: absolute;
+  background-color: #566246;
+  margin-top: 48.5%;
+  margin-left: 26.5%;
+}
+#pageIndicator3 {
+  height: 6.5px;
+  width: 20px;
+  position: absolute;
+  background-color: #566246;
+  margin-top: 48.5%;
+  margin-left: 29.5%;
+}
+#pageIndicator4 {
+  height: 6.5px;
+  width: 20px;
+  position: absolute;
+  background-color: #566246;
+  margin-top: 48.5%;
+  margin-left: 32.5%;
+}
