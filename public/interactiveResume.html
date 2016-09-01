@@ -11,6 +11,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet">
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
 	</head>
 	<body>
 		<div class="stars"></div>
@@ -49,11 +50,18 @@
 							</div>
 						</div>
 						<div class="outerCircle"></div>
-						<!-- <input type="image" src="/interactiveResume/img/rightMenuArrow.png" name="rightMenuArrow" class="" id="rightMenuArrow"/> -->
-						<a href="#"><div id=videoOverlayCalc class="videoOverlay"></div></a>
-						<a href="#"><div id=videoOverlayColorClock class="videoOverlay"></div></a>
-						<a href="#"><div id=videoOverlaySimpleSimon class="videoOverlay"></div></a>
-						<a href="#"><div id=videoOverlayWeatherMap class="videoOverlay"></div></a>
+						<a href="#calcAnimatedModal" id="calcModal">
+							<div id=videoOverlayCalc class="videoOverlay"></div>
+						</a>
+						<a href="#" data-toggle="modal" data-target="#colorClockModal">
+							<div id=videoOverlayColorClock class="videoOverlay"></div>
+						</a>
+						<a href="#" data-toggle="modal" data-target="#simpleSimonModal">
+							<div id=videoOverlaySimpleSimon class="videoOverlay"></div>
+						</a>
+						<a href="#" data-toggle="modal" data-target="#weatherMapModal">
+							<div id=videoOverlayWeatherMap class="videoOverlay"></div>
+						</a>
 						<a href="#"><img src="/interactiveResume/img/rightMenuArrow.png" id="rightMenuArrow"></a>
 						<a href="#"><img src="/interactiveResume/img/leftMenuArrow.png" id="leftMenuArrow"></a>
 						<a href="#"><div id="pageIndicator1" class="pageIndicator"></div></a>
@@ -77,6 +85,19 @@
 			</div>
 		</div>
 
+<!//==============================================================={Modals}==============================================================\>
+
+    <!--DEMO01-->
+    <div id="calcAnimatedModal" class="animated animateModal-off bounceOutDown">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-calcAnimatedModal"> 
+            CLOSE MODAL
+        </div>
+            
+        <div class="modal-content" id="calcModalContent">
+                  
+        </div>
+    </div>
 		
 
 		<!/=============================================================={Jquery V2.1.3}================================================================\>
@@ -87,6 +108,7 @@
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<!//==============================================================={Arc Text Library}===========================================================\>
 			<script src="/interactiveResume/arctext/js/jquery.arctext.js"></script>
+			<script src="/interactiveResume/js/animatedModal.min.js"></script>
 		<!//============================================================={Custom JavaScript}============================================================\>
 			<script src="/interactiveResume/js/interactiveResume.js"></script>
 	</body>

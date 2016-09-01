@@ -8,6 +8,10 @@
 	$('#thirdHeading').arctext({radius: 300, dir: -1})
 	$('#fourthHeading').arctext({radius: 300})
 
+//==============================================================={Animated Modal}===================================================================\
+
+
+
 //========================================================={Hide Content On Page Load}==============================================================\
 
 	$('#myProjectText').hide();
@@ -230,7 +234,14 @@
 
 
 $('#videoOverlayCalc').click(function(){
-	alert('Calc');
+	$("#calcModal").animatedModal({
+		modalTarget:'calcAnimatedModal',
+		animatedIn:'fadeInLeft',
+        animatedOut:'bounceOutDown',
+        animationDuration:".5s"
+	})
+	$('#calcModalContent').load('/interactiveResume/projects/calculatorPersonalSite.html');
+	$('#calcModalContent').css('background-image: url(/interactiveResume/img/gray-floral.png)');
 });
 $('#videoOverlayColorClock').click(function(){
 	alert('ColorClock');
