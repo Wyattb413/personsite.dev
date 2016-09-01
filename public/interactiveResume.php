@@ -12,6 +12,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet">
 		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+		<link rel="stylesheet" type="text/css" href="/interactiveResume/projects/css/calculatorPersonalSite.css">
 	</head>
 	<body>
 		<div class="stars"></div>
@@ -95,7 +96,7 @@
         </div>
             
         <div class="modal-content" id="calcModalContent">
-                  
+              <?php include "interactiveResume/projects/calculatorPersonalSite.html" ?>    
         </div>
     </div>
 		

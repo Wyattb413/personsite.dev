@@ -238,11 +238,12 @@ $('#videoOverlayCalc').click(function(){
 		modalTarget:'calcAnimatedModal',
 		animatedIn:'fadeInLeft',
         animatedOut:'bounceOutDown',
-        animationDuration:".5s"
+        animationDuration:".8s"
 	})
-	$('#calcModalContent').load('/interactiveResume/projects/calculatorPersonalSite.html');
-	$('#calcModalContent').css('background-image: url(/interactiveResume/img/gray-floral.png)');
 });
+
+$('#calcVideoClose').click(function(){
+})
 $('#videoOverlayColorClock').click(function(){
 	alert('ColorClock');
 });
