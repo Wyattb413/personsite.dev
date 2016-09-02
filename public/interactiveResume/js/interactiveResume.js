@@ -95,7 +95,7 @@
 			$(videoOverlays[i]).fadeIn();
 			$(pageIndicators[i]).animate({backgroundColor: '#F4D49C'}, '500');
 		},500);
-		$(index[i]).get(0).load();
+		// $(index[i]).get(0).load();
 		$(index[i]).get(0).play();
 	});
 
