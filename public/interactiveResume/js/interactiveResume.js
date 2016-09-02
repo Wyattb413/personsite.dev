@@ -94,9 +94,9 @@
 			$(index[i]).fadeIn();
 			$(videoOverlays[i]).fadeIn();
 			$(pageIndicators[i]).animate({backgroundColor: '#F4D49C'}, '500');
+			$(index[i]).get(0).play();
 		},500);
 		$(index[i]).get(0).load();
-		$(index[i]).get(0).play();
 	});
 
 	$('#leftMenuArrow').click(function(){
@@ -111,9 +111,9 @@
 			$(index[i]).fadeIn();
 			$(videoOverlays[i]).fadeIn();
 			$(pageIndicators[i]).animate({backgroundColor: '#F4D49C'}, '500');
+			$(index[i]).get(0).play();
 		},500);
 		$(index[i]).get(0).load();
-		$(index[i]).get(0).play();
 	});
 
 	$('#pageIndicator1').click(function(){
@@ -125,9 +125,9 @@
 			$(index[i]).fadeIn();
 			$(videoOverlays[i]).fadeIn();
 			$(pageIndicators[i]).animate({backgroundColor: '#F4D49C'}, '500');
+			$(index[i]).get(0).play();
 		},500);
 		$(index[i]).get(0).load();
-		$(index[i]).get(0).play();
 	});
 	$('#pageIndicator2').click(function(){
 		$(index[i]).fadeOut();
@@ -138,9 +138,9 @@
 			$(index[i]).fadeIn();
 			$(videoOverlays[i]).fadeIn();
 			$(pageIndicators[i]).animate({backgroundColor: '#F4D49C'}, '500');
+			$(index[i]).get(0).play();
 		},500);
 		$(index[i]).get(0).load();
-		$(index[i]).get(0).play();
 	});
 	$('#pageIndicator3').click(function(){
 		$(index[i]).fadeOut();
@@ -151,9 +151,9 @@
 			$(index[i]).fadeIn();
 			$(videoOverlays[i]).fadeIn();
 			$(pageIndicators[i]).animate({backgroundColor: '#F4D49C'}, '500');
+			$(index[i]).get(0).play();
 		},500);
 		$(index[i]).get(0).load();
-		$(index[i]).get(0).play();
 	});
 	$('#pageIndicator4').click(function(){
 		$(index[i]).fadeOut();
@@ -164,9 +164,9 @@
 			$(index[i]).fadeIn();
 			$(videoOverlays[i]).fadeIn();
 			$(pageIndicators[i]).animate({backgroundColor: '#F4D49C'}, '500');
+			$(index[i]).get(0).play();
 		},500);
 		$(index[i]).get(0).load();
-		$(index[i]).get(0).play();
 	});
 
 	function hideVideoOverlays() {
