@@ -13,6 +13,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet">
 		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
 		<link rel="stylesheet" type="text/css" href="/interactiveResume/projects/css/calculatorPersonalSite.css">
+		<link rel="stylesheet" type="text/css" href="/interactiveResume/projects/css/colorClockPersonalSite.css">
 	</head>
 	<body>
 		<div class="stars"></div>
@@ -54,13 +55,13 @@
 						<a href="#calcAnimatedModal" id="calcModal">
 							<div id=videoOverlayCalc class="videoOverlay"></div>
 						</a>
-						<a href="#" data-toggle="modal" data-target="#colorClockModal">
+						<a href="#colorClockAnimatedModal" id="colorClockModal">
 							<div id=videoOverlayColorClock class="videoOverlay"></div>
 						</a>
-						<a href="#" data-toggle="modal" data-target="#simpleSimonModal">
+						<a href="#simpleSimonAnimatedModal" id="simpleSimonModal">
 							<div id=videoOverlaySimpleSimon class="videoOverlay"></div>
 						</a>
-						<a href="#" data-toggle="modal" data-target="#weatherMapModal">
+						<a href="#" data-toggle="modal" data-target="weatherMapModal">
 							<div id=videoOverlayWeatherMap class="videoOverlay"></div>
 						</a>
 						<a href="#"><img src="/interactiveResume/img/rightMenuArrow.png" id="rightMenuArrow"></a>
@@ -91,12 +92,23 @@
     <!--DEMO01-->
     <div id="calcAnimatedModal" class="animated animateModal-off bounceOutDown">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
-        <div class="close-calcAnimatedModal"> 
-            <button id="calcVideoClose">CLOSE MODAL</button>
-        </div>
+        <!-- <div class="close-calcAnimatedModal"> 
+        </div> -->
             
-        <div class="modal-content" id="calcModalContent">
-              <?php include "interactiveResume/projects/calculatorPersonalSite.html" ?>    
+        <div class="modal-content close-calcAnimatedModal" id="calcModalContent">
+	        <button id="calcVideoClose">CLOSE MODAL</button>
+            <?php include "interactiveResume/projects/calculatorPersonalSite.html" ?>    
+        </div>
+    </div>
+    <div id="colorClockAnimatedModal" class="animated animateModal-off bounceOutDown">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <!-- <div class="close-colorClockAnimatedModal"> 
+            <button id="colorClockVideoClose">CLOSE MODAL</button>
+        </div> -->
+            
+        <div class="modal-content close-colorClockAnimatedModal" id="colorClockModalContent">
+	        <button id="colorClockVideoClose">CLOSE MODAL</button>
+            <?php include "interactiveResume/projects/colorClockPersonalSite.html" ?>    
         </div>
     </div>
 		

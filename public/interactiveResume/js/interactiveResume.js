@@ -238,18 +238,26 @@ $('#videoOverlayCalc').click(function(){
 		modalTarget:'calcAnimatedModal',
 		animatedIn:'fadeInLeft',
         animatedOut:'bounceOutDown',
-        animationDuration:".8s"
+        animationDuration:".5s"
 	})
 });
 
 $('#calcVideoClose').click(function(){
 })
+
 $('#videoOverlayColorClock').click(function(){
-	alert('ColorClock');
+	$("#colorClockModal").animatedModal({
+		modalTarget:'colorClockAnimatedModal',
+		animatedIn:'fadeInLeft',
+        animatedOut:'bounceOutDown',
+        animationDuration:".5s"
+	})
 });
+
 $('#videoOverlaySimpleSimon').click(function(){
 	alert('SimpleSimon');
 });
+
 $('#videoOverlayWeatherMap').click(function(){
 	alert('WeatherMap');
 });
