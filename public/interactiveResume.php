@@ -89,25 +89,22 @@
 
 <!//==============================================================={Modals}==============================================================\>
 
-    <!--DEMO01-->
+    <!--Calc Modal-->
     <div id="calcAnimatedModal" class="animated animateModal-off bounceOutDown">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
-        <!-- <div class="close-calcAnimatedModal"> 
-        </div> -->
-            
-        <div class="modal-content close-calcAnimatedModal" id="calcModalContent">
-	        <button id="calcVideoClose">CLOSE MODAL</button>
+        <div class="modal-content" id="calcModalContent">
+	        <div class="close-calcAnimatedModal"> 
+		        <button id="calcVideoClose">Close Modal</button>
+	        </div>
             <?php include "interactiveResume/projects/calculatorPersonalSite.html" ?>    
         </div>
     </div>
+	<!--ColorClock Modal-->
     <div id="colorClockAnimatedModal" class="animated animateModal-off bounceOutDown">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
-        <!-- <div class="close-colorClockAnimatedModal"> 
-            <button id="colorClockVideoClose">CLOSE MODAL</button>
-        </div> -->
-            
-        <div class="modal-content close-colorClockAnimatedModal" id="colorClockModalContent">
-	        <button id="colorClockVideoClose">CLOSE MODAL</button>
+        <div class="modal-content" id="colorClockModalContent">
+        	<div class="close-colorClockAnimatedModal"> 
+	            <button id="colorClockVideoClose">Close Modal</button>
+	        </div>
             <?php include "interactiveResume/projects/colorClockPersonalSite.html" ?>    
         </div>
     </div>
