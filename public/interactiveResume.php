@@ -25,10 +25,10 @@
 						<img src="/interactiveResume/img/ropeBorder.png" class="ropeBorder">
 						<div class="innerCircle">
 							<div id="innerCircleTextDiv" class="displayTable">
-								<p id="welcomeText">
+								<!-- <p id="welcomeText">
 								Hello There!<br>
 								It's Nice To Meet You
-								</p>
+								</p> -->
 								<div id="myProjectText">
 									<video id="calcVideo" class="video">
 										<source src="/interactiveResume/vid/calculatorProjectDemo.mp4" type='video/mp4'></source>"
@@ -70,7 +70,7 @@
 						<a href="#"><div id="pageIndicator2" class="pageIndicator"></div></a>
 						<a href="#"><div id="pageIndicator3" class="pageIndicator"></div></a>
 						<a href="#"><div id="pageIndicator4" class="pageIndicator"></div></a>
-						<div class="row">
+						<!-- <div class="row">
 							<a href="#" id="welcomeClick"><h1 id="firstHeading">Welcome!</h1></a>
 						</div>
 						<div class="row">
@@ -81,7 +81,7 @@
 						</div>
 						<div class="row">
 							<a href="#" id="contactMeClick"><h1 id="fourthHeading">• Contact Me •</h1></a>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
