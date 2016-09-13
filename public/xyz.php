@@ -24,9 +24,9 @@
 				<a href="#"><div class="navBarText" id="careerStoryText"> • My Resume • </div></a>
 				<a href="#"><div class="navBarText" id="myProjectsText">• My Portfolio •</div></a>
 			</div>
-			<!-- <div class="logoContainer"> -->
-				<!-- <img src="/xyz/img/logoComplete2.png" id="imageLogo"> -->
-			<!-- </div> -->
+			<div class="logoContainer">
+				<img src="/xyz/img/logoComplete2.png" id="imageLogo">
+			</div>
 		</div>
 
 		<section class="parallax">
