@@ -18,12 +18,12 @@
 	</head>
 	<body>
 		<div class="header" id="page-top">
-			<!-- <div class="navBar">
+			<div class="navBar">
 				<a href="#"><div class="" id="nameText">Wyatt Barnes</div></a>
 				<a href="#"><div class="navBarText" id="contactMeText">• Contact Me •</div></a>
 				<a href="#"><div class="navBarText" id="careerStoryText"> • My Resume • </div></a>
 				<a href="#"><div class="navBarText" id="myProjectsText">• My Portfolio •</div></a>
-			</div> -->
+			</div>
 			<!-- <div class="logoContainer"> -->
 				<!-- <img src="/xyz/img/logoComplete2.png" id="imageLogo"> -->
 			<!-- </div> -->
