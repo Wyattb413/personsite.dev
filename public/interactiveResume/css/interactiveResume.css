@@ -21,7 +21,7 @@
 
     .stars {
       /*background-image: url('/interactiveResume/img/whiteWaters.jpeg');*/
-      background-color: maroon;
+      background-color: #820000;
       background-size: cover;
       z-index:0;
     }

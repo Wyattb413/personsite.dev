@@ -70,7 +70,7 @@
 						<a href="#"><div id="pageIndicator2" class="pageIndicator"></div></a>
 						<a href="#"><div id="pageIndicator3" class="pageIndicator"></div></a>
 						<a href="#"><div id="pageIndicator4" class="pageIndicator"></div></a>
-						<!-- <div class="row">
+						<div class="row">
 							<a href="#" id="welcomeClick"><h1 id="firstHeading">Welcome!</h1></a>
 						</div>
 						<div class="row">
@@ -81,7 +81,7 @@
 						</div>
 						<div class="row">
 							<a href="#" id="contactMeClick"><h1 id="fourthHeading">• Contact Me •</h1></a>
-						</div> -->
+						</div>
 					</div>
 				</div>
 			</div>
