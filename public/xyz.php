@@ -17,8 +17,8 @@
 
 	</head>
 	<body>
-		<!-- <div class="header" id="page-top">
-			<div class="navBar">
+		<div class="header" id="page-top">
+			<!-- <div class="navBar">
 				<a href="#"><div class="" id="nameText">Wyatt Barnes</div></a>
 				<a href="#"><div class="navBarText" id="contactMeText">• Contact Me •</div></a>
 				<a href="#"><div class="navBarText" id="careerStoryText"> • My Resume • </div></a>
@@ -27,9 +27,9 @@
 			<!-- <div class="logoContainer"> -->
 				<!-- <img src="/xyz/img/logoComplete2.png" id="imageLogo"> -->
 			<!-- </div> -->
-		<!-- </div> -->
+		</div>
 
-		<!-- <section class="parallax">
+		<section class="parallax">
 
 			<div class="parallax-inner">
 			
@@ -39,7 +39,7 @@
 
 			</div>	
 
-		</section> -->
+		</section>
 
 		<!-- <h1>Random 3</h1> -->
 
