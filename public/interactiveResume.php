@@ -25,10 +25,10 @@
 						<img src="/interactiveResume/img/ropeBorder.png" class="ropeBorder">
 						<div class="innerCircle">
 							<div id="innerCircleTextDiv" class="displayTable">
-								<!-- <p id="welcomeText">
+								<p id="welcomeText">
 								Hello There!<br>
 								It's Nice To Meet You
-								</p> -->
+								</p>
 								<div id="myProjectText">
 									<video id="calcVideo" class="video">
 										<source src="/interactiveResume/vid/calculatorProjectDemo.mp4" type='video/mp4'></source>"
