@@ -1,98 +1,61 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
 }
 
-body, html {
-  height: 100%;
+body {
   background-color: black;
 }
 
-h2 {
-  text-align: center;
-  font-size: 200%;
-  color: #E5E5E5;
-  text-transform: uppercase;
-  letter-spacing: 1%;
-}
-
-/*/==============================================================={Start Parallax}====================================================================\*/
-
-  .header {
-    background: url(/xyz/img/foggyMountain.jpeg);
-    height: 100%;
-    background-size: cover;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-  }
-
-  .parallax {
-    background: url(/xyz/img/mountainForest.jpeg) fixed repeat;
-    background-size: cover;
-    padding-top: 100%;
-    padding-bottom: 100%; 
-  }
-
-/*/==============================================================={End Parallax}=======================================================================\*/
-
-/*/==============================================================={NavBar}============================================================================\*/
-
-.navBar {
+.image {
+  height: 75rem;
   width: 100%;
-  background-color: white;
-  opacity: .7;
-  height: 40px;
+  background: black;
+  z-index: 1;
+  margin-bottom: -2.5%;
+}
+
+.content {
+  height: 75rem;
+  width: 100%;
+  background: white;
+  z-index: 2;
+}
+
+.content h1 {
+  font-size: 40px;
+  color: #464646;
+  font-weight: 600;
+  margin: 30px 60px;
+}
+
+.content p {
+  font-size: 20px;
+  color: #343434;
+  font-weight: 300;
+  margin: 30px 60px;
+}
+
+#wall_1 {
+  background: url(/xyz/img/foggyMountain.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#wall_2 {
+  background: url(/xyz/img/mountainForest.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#wall_3 {
+  background: url(/xyz/img/oceanShore.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#nav {
+  height: 70px;
+  width: 100%;
   position: fixed;
-  margin-top: 10%;
-  z-index: 99;
-}
-
-a {
-  color: black;
-}
-
-a:hover {
-  color: #820000;
-}
-
-.navBarText {
-  display: inline-block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  margin-top: .8%;
-  margin-right: 2%;
-}
-
-#nameText {
-  float: left;
-  margin-left: 5%;
-  line-height: 3.5rem;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-  font-size: 1.2em;
-}
-
-#myProjectsText {
-  float: right;
-}
-
-#careerStoryText {
-  float: right;
-}
-
-#contactMeText {
-  float: right;
-}
-/*/===================================================================================================================================================\*/
-
-#imageLogo {
-  opacity: 1;
-  height: auto;
-  width: 33%;
-  z-index: 99;
-  position: relative;
 }
