@@ -29,7 +29,9 @@
         <div id="customlogo"><img src="/xyz/img/logoComplete2.png"></div>
       </div> -->
 
-      <div id="wall_1" class="image" data-stellar-background-ratio=".3"></div>
+      <div id="wall_1" class="image" data-stellar-background-ratio=".3">
+        
+      </div>
       <div id="content_1" class="content">
         <h1>Heading</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequuntur facere minima nostrum officiis atque deserunt eius esse veniam nobis maxime repudiandae voluptas, aperiam corporis dolorem maiores corrupti pariatur necessitatibus!</p>
