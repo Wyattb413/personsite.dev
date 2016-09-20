@@ -1,49 +1,205 @@
 html, body {
 	height: 100%;
-	margin: 0;
-	padding: 0;
-	padding-top: 1rem;
+	width: 100%;
 }
 
 body {
-	background-image: url(/jccsCustoms/img/plymouth.jpeg);
-	background-size: cover;
+	margin: 0;
+	padding: 0;
 	background-color: black;
+	
 }
 
 .overlay {
 	height: 100%;
 	width: 100%;
-	background-color: black;
-	opacity: .5;
+	background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url(/jccsCustoms/img/plymouth.jpeg);
+    background-size: cover;
+	position: fixed;
 }
 
-.welcomeTextDiv {
+/*/==============================================================={Header}===========================================================================\*/
 
+	header{
+		/* Enable flex mode. */
+		display: flex; 
+		
+		/* Spread out the elements inside the header. */
+		justify-content: space-between;
+
+		/* Align items vertically in the center. */
+		align-items: center;
+		position: absolute;
+		width: 100%;
+		background-image: url(/jccsCustoms/img/dark_Tire.png);
+		background-color: #7f7e7e;
+	}
+
+	@media (max-width: 1000px){
+		header{
+			/* Reverse the axis of the header, making it vertical. */
+			flex-direction: column;
+			
+			/* Align items to the begining (the left) of the header. */
+			align-items: flex-start;
+		}
+	}
+
+	.header-left {
+	}
+
+	.logo {
+		height: 3rem;
+		width: auto;
+	}
+
+	.header-center {
+		font-size: 2rem;
+		color: #a00000;
+	}
+
+	.header-right {
+		font-size: 1.5rem;
+		color: #a00000;
+	}
+
+/*/==================================================================================================================================================\*/
+
+/*/==============================================================={Main (Hero) Img}==================================================================\*/
+
+.mainImgContainer {
+	display: flex;
+	justify-content: center;
 }
 
-.welcomeText {
-	float: left;
-	color: white;
-	margin-left: 10%;
-	margin-bottom: 0;
-	font-size: 2rem;
-	font-weight: 900;
-	font-family: 'Cormorant SC', serif;
+.mainImgDiv {
+	position: absolute;
+	background-color: blue;
+	margin-top: 4rem;
+	width: auto;
+	height: auto;
 }
 
-.phoneNumber {
-	float: right;
-	color: white;
-	margin-right: 10%;
-	margin-top: 1%;
-	font-size: 1.2rem;
+.mainImg {
+	display: flex;
+	flex: auto;
 }
 
-.fancyBreak {
+.greyBike {
+	height: 35rem;
+	width: auto;
+}
+
+@media (min-width: 320px) {
+
+	.mainImgDiv {
+		position: absolute;
+		background-color: blue;
+		margin-top: 9rem;
+		width: auto;
+		height: auto;
+	}
+
+	.greyBike {
+		height: 29rem;
+		width: auto;
+	}
+}
+
+/*/==================================================================================================================================================\*/
+
+/*/==============================================================={Menu Bar}=========================================================================\*/
+
+	.menuBarDiv {
+		display: flex;
+		justify-content: center;
+	}
+
+	.menuBar {
+		display: flex;
+		align-items: center;
+		text-align: center;
+		position: absolute;
+		margin-top: 40rem;
+		width: 79%;
+		height: 3rem;
+		/*background-color: green;*/
+		border-top-style: dashed;
+		border-bottom-style: dashed;
+		border-color: #F1F1F1;
+		border-width: 2px;
+		color: #d3d3d3;
+	}
+
+	.links {
+		text-decoration: none;
+		color: #F1F1F1;
+	}
+
+	.links:hover {
+		color: #a00000;
+	}
+
+	.completeBuildsLink {
+		flex-basis: 33%;
+		/*align-self: auto;*/
+		/*margin-left: 1rem;*/
+
+	}
+
+	.customPaintJobsLink {
+		flex-basis: 33%;
+		/*align-self: auto;*/
+	}
+
+	.customDesignsLink {
+		flex-basis: 33%;
+		/*align-self: auto;*/
+	}
+
+/*/==================================================================================================================================================\*/
+
+/*/==============================================================={Complete Builds}==================================================================\*/
+
+.completeBuilds {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	/*align-content: flex-start;*/
+	position: relative;
+	background-color: orange;
+	margin-top: 45rem;
+	width: 56%;
+	height: auto;
+	margin-left: 8.5rem;
+}
+
+.completeBuildImg {
+	height: 15rem;
+	width: auto;
+	/*flex: auto;*/
+}
+
+.completeBuild1 {
+	
+}
+
+.completeBuild2 {
+	
+}
+
+/*/==================================================================================================================================================\*/
+
+/*/==============================================================={FaceBook Feed}====================================================================\*/
+
+.facebookFeed {
 	display: inline-block;
-	background-color: white;
-	margin-left: 10%;
-	width: 80%;
-	height: .1rem;
+	position: absolute;
+	height: 1000px;
+	width: 300px;
+	margin-top: 45rem;
+	/*background-color: black;*/
 }

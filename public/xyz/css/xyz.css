@@ -15,6 +15,14 @@ body {
   margin-bottom: -2.5%;
 }
 
+#customLogoContainer {
+}
+
+#customLogo {
+  height: 35rem;
+  width: auto;
+}
+
 .content {
   height: 75rem;
   width: 100%;
@@ -40,6 +48,9 @@ body {
   background: url(/xyz/img/foggyMountain.jpeg);
   background-size: cover;
   background-attachment: fixed;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 #wall_2 {
@@ -54,8 +65,8 @@ body {
   background-attachment: fixed;
 }
 
-#nav {
-  height: 70px;
+#customNav {
+  height: 20px;
   width: 100%;
-  position: fixed;
+  background-color: blue;
 }
