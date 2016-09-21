@@ -25,11 +25,13 @@
 
   </head>
     <body>
-      <!-- <div id="customNav">
-        <div id="customlogo"><img src="/xyz/img/logoComplete2.png"></div>
-      </div> -->
 
       <div id="wall_1" class="image" data-stellar-background-ratio=".3">
+      <div id="customNav">
+      </div>
+        <div id="customLogoContainer">
+          <img src="/xyz/img/logoComplete2.png" id="customLogo">
+        </div>
         
       </div>
       <div id="content_1" class="content">

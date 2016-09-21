@@ -36,10 +36,11 @@
 			</div>
 		</div>
 		<div class="completeBuilds">
-			<img src="/jccsCustoms/img/completeBuild1.jpeg" class="completeBuild1 completeBuildImg">
-			<img src="/jccsCustoms/img/completeBuild2.jpeg" class="completeBuild2 completeBuildImg">
-			<img src="/jccsCustoms/img/completeBuild3.jpeg" class="completeBuild3 completeBuildImg">
-			<img src="/jccsCustoms/img/completeBuild4.jpeg" class="completeBuild4 completeBuildImg">
+			<div class="clickToText">Click Pictures To Enlarge</div>
+			<div class="completeBuildImg completeBuild1"></div>
+			<div class="completeBuildImg completeBuild2"></div>
+			<div class="completeBuildImg completeBuild3"></div>
+			<div class="completeBuildImg completeBuild4"></div>
 		</div>
 		<div class="facebookFeed">
 			<div class="fb-page" data-href="https://www.facebook.com/JccsCustoms/" data-tabs="timeline" data-width="300" data-height="1000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/JccsCustoms/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/JccsCustoms/"></a></blockquote></div>
