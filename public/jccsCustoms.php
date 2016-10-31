@@ -3,6 +3,7 @@
 	<head>
 		<title>Building One Bike At A Time</title>
 		<link rel="stylesheet" type="text/css" href="/jccsCustoms/jccsCustoms.css">
+		<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 		<!-- <link href="https://fonts.googleapis.com/css?family=Cormorant+SC" rel="stylesheet"> -->
 	</head>
 	<body>
@@ -32,7 +33,7 @@
 			<div class="menuBar">
 				<span class="completeBuildsLink"><a href="#" class="links">Complete Builds</a></span>
 				<span class="customPaintJobsLink"><a href="#" class="links">Custom Paint Jobs</a></span>
-				<span class="customDesignsLink"><a href="#" class="links">Custom Designs Link</a></span>
+				<span class="customDesignsLink"><a href="#" class="links">Custom Designs</a></span>
 			</div>
 		</div>
 		<div class="completeBuilds">

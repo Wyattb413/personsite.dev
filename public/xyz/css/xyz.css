@@ -3,8 +3,9 @@
   padding: 0;
 }
 
-body {
-  background-color: black;
+.mainContent {
+  height: 100%;
+  width: 100%;
 }
 
 .image {
@@ -15,58 +16,53 @@ body {
   margin-bottom: -2.5%;
 }
 
-#customLogoContainer {
+.wall {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-#customLogo {
-  height: 35rem;
+.wall.image1 {
+  background-image: url(/xyz/img/foggyMountain.jpeg);
+  height: 55vw;
+}
+
+.wall.image2 {
+  background-image: url(/xyz/img/mountainForest.jpeg);
+}
+
+.wall.image3 {
+  background-image: url(/xyz/img/oceanShore.jpeg);
+}
+
+.customLogoContainer {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.customLogo {
+  height: 25rem;
   width: auto;
 }
 
-.content {
-  height: 75rem;
-  width: 100%;
+.customNav {
+  display: inline-block;
+  position: absolute;
+  top: 8vw;
   background: white;
-  z-index: 2;
-}
-
-.content h1 {
-  font-size: 40px;
-  color: #464646;
-  font-weight: 600;
-  margin: 30px 60px;
-}
-
-.content p {
-  font-size: 20px;
-  color: #343434;
-  font-weight: 300;
-  margin: 30px 60px;
-}
-
-#wall_1 {
-  background: url(/xyz/img/foggyMountain.jpeg);
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
-
-#wall_2 {
-  background: url(/xyz/img/mountainForest.jpeg);
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-#wall_3 {
-  background: url(/xyz/img/oceanShore.jpeg);
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-#customNav {
-  height: 20px;
   width: 100%;
-  background-color: blue;
+  opacity: .8;
+}
+
+.customNav ul li {
+  float: left;
+  list-style: none;
+  margin: 20px;
+}
+
+@media (max-width: 800px) {
+  .wall.image1 {
+    height: 135vw;
+  }
 }

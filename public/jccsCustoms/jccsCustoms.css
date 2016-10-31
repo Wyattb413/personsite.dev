@@ -74,12 +74,19 @@ body {
 	justify-content: center;
 }
 
-.mainImgDiv {
-	position: absolute;
-	background-color: blue;
-	margin-top: 4rem;
-	width: auto;
-	height: auto;
+@media only screen and (min-width: 769px) {
+	.mainImgDiv {
+		position: absolute;
+		background-color: blue;
+		margin-top: 4rem;
+		width: auto;
+		height: auto;
+	}
+
+	.greyBike {
+		height: 35rem;
+		width: auto;
+	}
 }
 
 .mainImg {
@@ -87,12 +94,8 @@ body {
 	flex: auto;
 }
 
-.greyBike {
-	height: 35rem;
-	width: auto;
-}
 
-/*@media (max-width: 320px) {
+@media only screen and (max-width: 768px) {
 
 	.mainImgDiv {
 		position: absolute;
@@ -103,10 +106,10 @@ body {
 	}
 
 	.greyBike {
-		height: 29rem;
+		height: 20rem;
 		width: auto;
 	}
-}*/
+}
 
 /*/==================================================================================================================================================\*/
 

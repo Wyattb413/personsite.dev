@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.img1 {
+  background-image: url(/responsive/img/foggyMountain.jpeg);
+  background-size: cover;
+  height: 100%;
+  max-width: 100%;
+}
+
+.content1 {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.logo {
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 321px) {
+  .img1 {
+  }
+  .logoContainer {
+    height: 100%;
+    vertical-align: middle;
+  }
+  .logo {
+    height: auto;
+    max-width: 100%;
+  }
+}

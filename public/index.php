@@ -121,7 +121,7 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Augest 2015-July 2016</h4>
+                                    <h4>August 2015-July 2016</h4>
                                     <h4 class="subheading">My "First" Job</h4>
                                 </div>
                                 <div class="timeline-body">
@@ -225,7 +225,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-    
+
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -310,7 +310,7 @@
                             <div id="resume-black-line"></div>
                         </div>
                     </div> -->
-                    <p id="summary-content"><strong><em>Problem Solving and Critical Thinking</em></strong> – strong capability to comprehensively evaluate issues and problems to formulate strategic solutions to complex situations; as well as in fully utilizing logic and reasoning to assess strengths and weaknesses of solutions, conclusions, and approaches 
+                    <p id="summary-content"><strong><em>Problem Solving and Critical Thinking</em></strong> – strong capability to comprehensively evaluate issues and problems to formulate strategic solutions to complex situations; as well as in fully utilizing logic and reasoning to assess strengths and weaknesses of solutions, conclusions, and approaches
                     <br>
                     <strong><em>Group Collaboration and Teamwork</em></strong> – adeptness in managing group dynamics, as well as in motivating and performing with high-caliber teams of professionals to deliver exceptional results; aptitude to provide guidance and assistance to others to support organizational goals
                     <br>
@@ -326,7 +326,7 @@
                     </p>
                     <a href="/documents/resume.pdf" target="_blank"><button id="resume-button">Link to My Resume</button></a>
                 </div>
-            <!--My Resume-->            
+            <!--My Resume-->
             <!--
             <div class="resume-pdf">
                 <iframe src="https://drive.google.com/file/d/0B8IUChWHyXTKSTl3VmVTeVd4aHc/preview" width="640" height="480" id="google-resume"></iframe>
