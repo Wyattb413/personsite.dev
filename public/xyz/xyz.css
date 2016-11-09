@@ -1,0 +1,87 @@
+/* line 1, /Users/Wyatt/vagrant-lamp/sites/personalsite.dev/public/xyz/css/xyz.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, /Users/Wyatt/vagrant-lamp/sites/personalsite.dev/public/xyz/css/xyz.scss */
+body {
+  background-color: white;
+}
+
+/* line 10, /Users/Wyatt/vagrant-lamp/sites/personalsite.dev/public/xyz/css/xyz.scss */
+.mainContent {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 15, /Users/Wyatt/vagrant-lamp/sites/personalsite.dev/public/xyz/css/xyz.scss */
+.image {
+  height: 75rem;
+  width: 100%;
+  background: black;
+  z-index: 1;
+  margin-bottom: -2.5%;
+}
+
+/* line 23, /Users/Wyatt/vagrant-lamp/sites/personalsite.dev/public/xyz/css/xyz.scss */
+.wall {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 27, /Users/Wyatt/vagrant-lamp/sites/personalsite.dev/public/xyz/css/xyz.scss */
+.wall.image1 {
+  background-image: url(/xyz/img/foggyMountain.jpeg);
+  height: 55vw;
+}
+
+/* line 32, /Users/Wyatt/vagrant-lamp/sites/personalsite.dev/public/xyz/css/xyz.scss */
+.wall.image2 {
+  background-image: url(/xyz/img/mountainForest.jpeg);
+}
+
+/* line 36, /Users/Wyatt/vagrant-lamp/sites/personalsite.dev/public/xyz/css/xyz.scss */
+.wall.image3 {
+  background-image: url(/xyz/img/oceanShore.jpeg);
+}
+
+/* line 40, /Users/Wyatt/vagrant-lamp/sites/personalsite.dev/public/xyz/css/xyz.scss */
+.customLogoContainer {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+/* line 46, /Users/Wyatt/vagrant-lamp/sites/personalsite.dev/public/xyz/css/xyz.scss */
+.customLogo {
+  height: 25rem;
+  width: auto;
+}
+
+/* line 51, /Users/Wyatt/vagrant-lamp/sites/personalsite.dev/public/xyz/css/xyz.scss */
+.customNav {
+  display: inline-block;
+  position: absolute;
+  top: 8vw;
+  background: white;
+  width: 100%;
+  opacity: .8;
+}
+
+/* line 59, /Users/Wyatt/vagrant-lamp/sites/personalsite.dev/public/xyz/css/xyz.scss */
+.customNav ul li {
+  float: left;
+  list-style: none;
+  margin: 20px;
+}
+
+@media (max-width: 800px) {
+  /* line 68, /Users/Wyatt/vagrant-lamp/sites/personalsite.dev/public/xyz/css/xyz.scss */
+  .wall.image1 {
+    height: 135vw;
+  }
+}
+
+/*# sourceMappingURL=../xyz.map */

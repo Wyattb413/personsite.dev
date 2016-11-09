@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "css/xyz.css",
+	"sources": [
+		"css/xyz.scss"
+	],
+	"sourcesContent": [
+		"* {\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  background-color: white;\n}\n\n.mainContent {\n  height: 100%;\n  width: 100%;\n}\n\n.image {\n  height: 75rem;\n  width: 100%;\n  background: black;\n  z-index: 1;\n  margin-bottom: -2.5%;\n}\n\n.wall {\n  background-position: center;\n  background-size: cover;\n  background-repeat: no-repeat;\n  &.image1 {\n    background-image: url(/xyz/img/foggyMountain.jpeg);\n    height: 55vw;\n  }\n\n  &.image2 {\n    background-image: url(/xyz/img/mountainForest.jpeg);\n  }\n\n  &.image3 {\n    background-image: url(/xyz/img/oceanShore.jpeg);\n  }\n}\n.customLogoContainer {\n  text-align: center;\n  display: inline-block;\n  width: 100%;\n}\n\n.customLogo {\n  height: 25rem;\n  width: auto;\n}\n\n.customNav {\ndisplay: inline-block;\nposition: absolute;\ntop: 8vw;\nbackground: white;\nwidth: 100%;\nopacity: .8;\nul {\n  li{\n    float: left;\n    list-style: none;\n    margin: 20px;\n  }\n}\n}\n\n@media (max-width: 800px) {\n  .wall.image1 {\n    height: 135vw;\n  }\n}\n"
+	],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAE;EACV,OAAO,EAAE,CAAE;CACZ;;;AAED,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,KAAM;CACzB;;;AAED,AAAA,YAAY,CAAC;EACX,MAAM,EAAE,IAAK;EACb,KAAK,EAAE,IAAK;CACb;;;AAED,AAAA,MAAM,CAAC;EACL,MAAM,EAAE,KAAM;EACd,KAAK,EAAE,IAAK;EACZ,UAAU,EAAE,KAAM;EAClB,OAAO,EAAE,CAAE;EACX,aAAa,EAAE,KAAM;CACtB;;;AAED,AAAA,KAAK,CAAC;EACJ,mBAAmB,EAAE,MAAO;EAC5B,eAAe,EAAE,KAAM;EACvB,iBAAiB,EAAE,SAAU;CAa9B;;;AAhBD,AAAA,KAAK,AAIF,OAAO,CAAC;EACP,gBAAgB,EAAiC,gCAAC;EAClD,MAAM,EAAE,IAAK;CACd;;;AAPH,AAAA,KAAK,AASF,OAAO,CAAC;EACP,gBAAgB,EAAkC,iCAAC;CACpD;;;AAXH,AAAA,KAAK,AAaF,OAAO,CAAC;EACP,gBAAgB,EAA8B,6BAAC;CAChD;;;AAEH,AAAA,oBAAoB,CAAC;EACnB,UAAU,EAAE,MAAO;EACnB,OAAO,EAAE,YAAa;EACtB,KAAK,EAAE,IAAK;CACb;;;AAED,AAAA,WAAW,CAAC;EACV,MAAM,EAAE,KAAM;EACd,KAAK,EAAE,IAAK;CACb;;;AAED,AAAA,UAAU,CAAC;EACX,OAAO,EAAE,YAAa;EACtB,QAAQ,EAAE,QAAS;EACnB,GAAG,EAAE,GAAI;EACT,UAAU,EAAE,KAAM;EAClB,KAAK,EAAE,IAAK;EACZ,OAAO,EAAE,EAAG;CAQX;;;AAdD,AAQE,UARQ,CAOV,EAAE,CACA,EAAE,CAAA;EACA,KAAK,EAAE,IAAK;EACZ,UAAU,EAAE,IAAK;EACjB,MAAM,EAAE,IAAK;CACd;;AAIH,MAAM,EAAL,SAAS,EAAE,KAAK;;EACf,AAAK,KAAA,AAAA,OAAO,CAAC;IACX,MAAM,EAAE,KAAM;GACf",
+	"names": []
+}

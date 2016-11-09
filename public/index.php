@@ -61,16 +61,16 @@
                     <li>
                         <a class="page-scroll" href="#portfolio">My Portfolio</a>
                     </li>
-                    <li>
+                    <!-- <li> -->
                     <!--Services=Resume -->
-                        <a class="page-scroll" href="#services">My Resume</a>
-                    </li>
+                        <!-- <a class="page-scroll" href="#services">My Resume</a>
+                    </li> -->
                     <!-- <li>
                         <a class="page-scroll" href="#team">Team</a>
                     </li> -->
-                    <li>
+                    <!-- <li>
                         <a class="page-scroll" href="#contact">Contact Me</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -189,11 +189,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="img/getGrillzScreenShot.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>GetGrillz</h4>
+                        <p class="text-muted">A Team-Built, Web Based Application</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -203,11 +203,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/simpleSimonScreenShot.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Simple Simon Game</h4>
+                        <p class="text-muted">A Classic Four Button Simon Game</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -217,11 +217,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="img/weatherMapScreenShot.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Weather Map</h4>
+                        <p class="text-muted">Uses API's To Show Weather Forecasts</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -232,11 +232,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                        <img src="img/wutsinWheelsScreenShot.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Wutsin Wheels</h4>
+                        <p class="text-muted">A Team-Built Craiglist Clone</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -246,11 +246,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                        <img src="img/redditScreenShot.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Reddit Clone</h4>
+                        <p class="text-muted">Clone of Reddit Site Using Laravel</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -260,11 +260,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                        <img src="img/jsCalculatorScreenShot.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>JavaScript Calculator</h4>
+                        <p class="text-muted">Four Operator Pure JavaScript Calculator</p>
                     </div>
                 </div>
             </div>
@@ -272,16 +272,16 @@
     </section>
 
 <!-- Services Section (AKA My Resume)-->
-    <section id="services">
+    <!-- <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">My Resume</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
-            </div>
+            </div> -->
             <!--My Resume-->
-                <div>
+                <!-- <div>
                     <h4 id="resume-header">Wyatt Barnes</h4>
                     <row>
                         <div id="header-info">
@@ -298,7 +298,7 @@
                     </row>
                     <p id="resume-content">Proactive, focused, and an enthusiastic individual; interested in pursuing an opportunity to perform in a challenging role within the areas of website development and coding to contribute to prospective company success. Recognized for integrity, solid work ethic, and exemplary dedication to perform beyond established goals and directions. Able to perform diverse functions and follow instructions independently. Articulate communicator with a naturally personable attitude, capable of establishing intuitive connections with diverse individuals. Proficient with Microsoft Office Suite (Excel, PowerPoint, and Word).
                     </p>
-                    <h2 id="resume-black-line"><span id="resume-span">Summary of Relevant Experince</span></h2>
+                    <h2 id="resume-black-line"><span id="resume-span">Summary of Relevant Experince</span></h2> -->
                     <!-- <div class="row">
                         <div class="col-xs-4">
                             <div id="resume-black-line"></div>
@@ -310,7 +310,7 @@
                             <div id="resume-black-line"></div>
                         </div>
                     </div> -->
-                    <p id="summary-content"><strong><em>Problem Solving and Critical Thinking</em></strong> – strong capability to comprehensively evaluate issues and problems to formulate strategic solutions to complex situations; as well as in fully utilizing logic and reasoning to assess strengths and weaknesses of solutions, conclusions, and approaches
+                    <!-- <p id="summary-content"><strong><em>Problem Solving and Critical Thinking</em></strong> – strong capability to comprehensively evaluate issues and problems to formulate strategic solutions to complex situations; as well as in fully utilizing logic and reasoning to assess strengths and weaknesses of solutions, conclusions, and approaches
                     <br>
                     <strong><em>Group Collaboration and Teamwork</em></strong> – adeptness in managing group dynamics, as well as in motivating and performing with high-caliber teams of professionals to deliver exceptional results; aptitude to provide guidance and assistance to others to support organizational goals
                     <br>
@@ -325,7 +325,7 @@
                     <strong><em>Regulatory Compliance</em></strong> – ability to maintain strict adherence to constantly changing set of policies in accomplishing assigned tasks
                     </p>
                     <a href="/documents/resume.pdf" target="_blank"><button id="resume-button">Link to My Resume</button></a>
-                </div>
+                </div> -->
             <!--My Resume-->
             <!--
             <div class="resume-pdf">
@@ -455,13 +455,13 @@
     </aside> -->
 
     <!-- Contact Section -->
-    <section id="contact">
+    <!-- <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Me</h2>
+                    <h2 class="section-heading">Contact Me</h2> -->
                     <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
-                </div>
+                <!-- </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -497,7 +497,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 <!--     <footer>
         <div class="container">
@@ -544,7 +544,7 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
+                            <h2>GetGrillz</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                             <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
