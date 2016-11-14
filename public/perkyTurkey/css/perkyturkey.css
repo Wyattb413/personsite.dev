@@ -1,0 +1,137 @@
+/* line 10, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 15, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+body {
+  color: #FFF5EE;
+  background-color: #62251D;
+  background-image: url("/perkyturkey/img/leavesBackground.png");
+  margin-bottom: 15vh;
+}
+
+@media screen and (max-width: 558px) {
+  /* line 23, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+  body {
+    margin-bottom: 20vh;
+  }
+}
+
+/* line 29, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.fileStackHeader {
+  position: relative;
+  background-color: #2E3B44;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 3vh;
+}
+
+/* line 37, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.filePickerLogo {
+  height: 25px;
+}
+
+/* line 41, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.fileStackHeaderSpacer {
+  color: #8D98A0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 47, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.fileStackHeaderText {
+  display: inline;
+  color: #8D98A0;
+  font-size: 14px;
+}
+
+/*Image Upload Container*/
+/* line 54, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.turkeyContainer {
+  z-index: -1;
+  border-radius: 25px;
+  background-image: url("/perkyturkey/img/woodBackground2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 66, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+  .turkeyContainerSpacer {
+    display: none;
+  }
+}
+
+/* line 72, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.perkyturkey {
+  z-index: 10;
+  position: relative;
+}
+
+/* line 77, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.perkyturkeyBeak {
+  z-index: 100;
+  position: absolute;
+  height: 30%;
+  top: 50%;
+  left: 40%;
+}
+
+/* line 89, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.options {
+  background-color: #F7DDA8;
+  color: #2E3B44;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+/* line 96, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.uploadButton {
+  background-color: #2E3B44;
+  color: #FFF5EE;
+}
+
+/* line 99, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.uploadButton:hover {
+  background-color: #62251D;
+  color: #FFF5EE;
+}
+
+/* line 105, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.optionsLink {
+  white-space: pre-wrap;
+  /* css-3 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
+}
+
+/* line 115, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.footerAnchor {
+  color: #FFF5EE;
+}
+
+/* line 117, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.footerAnchor:hover {
+  color: #FFF5EE;
+  text-decoration: none;
+}
+
+/* line 123, /Users/Wyatt/vagrant-lamp/sites/perkyturkey.dev/public/scss/perkyturkey.scss */
+.fileStackFooter {
+  position: absolute;
+  bottom: 0;
+  background-color: #2E3B44;
+}
+
+/*# sourceMappingURL=../css/perkyturkey.map */

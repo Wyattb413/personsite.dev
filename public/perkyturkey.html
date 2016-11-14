@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="File Stack Image Uploader">
+        <meta name="author" content="Wyatt Barnes">
+
+        <title>Perky Turkey</title>
+
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/perkyturkey/css/perkyTurkey.css">
+    </head>
+
+    <body>
+        <script type="text/javascript" src="//api.filestackapi.com/filestack.js"></script>
+        <div class="container-fluid">
+            <div class="row">
+                <header class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fileStackHeader">
+                    <a href="http://filestack.com/" class="footerAnchor">
+                    <span class="sr-only">FilePicker</span><span><img src="/perkyturkey/img/filePickerLogo.png" class="filePickerLogo"><span class="fileStackHeaderSpacer">|</span></span><h6 class="fileStackHeaderText">Filepicker Is Now Filestack</h6>
+                    </a>
+                </header>
+            </div>
+            <div class="row turkeyContainerDiv">
+                <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0 turkeyContainerSpacer">
+                </div>
+                <div class="col-xs-10 col-sm-6 col-md-6 col-lg-6 turkeyContainer">
+                    <img src="/perkyturkey/img/perkyTurkey.png" class="perkyturkey img-responsive" id="perkyturkey">
+                    <!-- <img src="/img/perkyTurkeyBeak.png" class="perkyturkeyBeak img-responsive" id="perkyturkeyBeak"> -->
+                </div>
+                <div class="col-xs-1 col-sm-0 col-md-0 col-lg-0 turkeyContainerSpacer">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center textContainer">
+                    <div class="options">
+                        <h1>Get Into The Holiday Spirit With FileStack!</h1>
+                        <button class="btn btn-default uploadButton" type="button" onclick="becomingOne(event);">
+                            <h4>Become One With The Turkey</h4>
+                        </button>
+                        <h1 id="optionsh1" class="optionsh1" style="display:none;">The Link To Your Creation Is Here: </h1>
+                        <br>
+                        <a href="" id="optionsLink" class="optionsLink"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row fileStackFooterDiv">
+                <footer class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center fileStackFooter">
+                    <a href="http://filestack.com/" class="footerAnchor">
+                    <h1>Get Started With <span class="sr-only">FileStack</span> <span><img src="/perkyturkey/img/fileStackLogo.svg"></span> Today!</h1>
+                    </a>
+                </footer>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var filestack_key = "AOSLAoEN9RPSqlUCWpQ3dz";
+
+            function becomingOne(e) {
+                e.preventDefault();
+                filepicker.setKey(filestack_key);
+                filepicker.pick(
+                    {
+                        minetype: 'image/*',
+                        container: 'modal',
+                        services: ['CONVERT', 'ALFRESCO','INSTAGRAM','BOX','SKYDRIVE','CLOUDDRIVE','IMAGE_SEARCH','CLOUDAPP','COMPUTER','DROPBOX','URL','FACEBOOK','GOOGLE_DRIVE','FLICKR','EVERNOTE','GMAIL','PICASA','FTP','CUSTOMSOURCE','IMGUR','WEBCAM','WEBDAV'],
+                        conversions: ['crop', 'filter'],
+                        // cropDim: ['190', '200'],
+                        cropForce: true,
+                    },
+                    function(Blob) {
+                        var filestackUrl = Blob.url;
+                        var filestackUrlArray = filestackUrl.split("/");
+                        var filestackHandler = filestackUrlArray[3];
+                        var croppedImgURL = 'https://process.filestackapi.com/' + filestack_key + '/crop_faces=width:190/circle/' + filestackHandler;
+                        filepicker.storeUrl(
+                          croppedImgURL,
+                          {filename: 'croppedImg'},
+                          function(Blob){
+                            var croppedImgArray = Blob.url.split("/");
+                            var croppedImgHandler = croppedImgArray[3];
+                            var waterMarkedImg = 'https://process.filestackapi.com/watermark=file:' + croppedImgHandler + ',position:center/POj1jBZCTWe3TqkkpIlV';
+                            console.log('Storing...');
+                            filepicker.storeUrl(
+                              waterMarkedImg,
+                              {filename: 'something.png'},
+                              function(Blob){
+                                  var waterMarkedImgArray = Blob.url.split("/");
+                                  var waterMarkedImgHandler = waterMarkedImgArray[3];
+                                  var completeImgURL = 'https://process.filestackapi.com/watermark=file:qXPmXqJuQHqlTGD68TLx,size:35,position:center/' + waterMarkedImgHandler;
+                                  document.getElementById('perkyturkey').src=completeImgURL;
+                                  document.getElementById('optionsh1').style.display = document.getElementById('optionsh1').style.display === 'none' ? '' : '';
+                                  document.getElementById('optionsLink').href=completeImgURL;
+                                  document.getElementById('optionsLink').innerHTML=completeImgURL;
+                              }
+                            );
+                          }
+                        );
+                    },
+                    function(FPError){
+                        alert('Error Has Occured');
+                    }
+                );
+            };
+        </script>
+    </body>
+
+</html>
