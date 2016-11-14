@@ -8,7 +8,7 @@ html {
 body {
   color: #FFF5EE;
   background-color: #62251D;
-  background-image: url("/perkyturkey/img/leavesBackground.png");
+  background-image: url("/perkyTurkey/img/leavesBackground.png");
   margin-bottom: 15vh;
 }
 
@@ -52,7 +52,7 @@ body {
 .turkeyContainer {
   z-index: -1;
   border-radius: 25px;
-  background-image: url("/perkyturkey/img/woodBackground2.jpeg");
+  background-image: url("/perkyTurkey/img/woodBackground2.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
